@@ -9,3 +9,5 @@ Steps:
 1. Get your own Permanent acess token.
 2. Update the token in the code.
 3. Run it to get the data.
+
+Used google gson for json parsing.
