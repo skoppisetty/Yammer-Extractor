@@ -200,9 +200,9 @@ public static String readLastLine( String fileName ) {
 public static String createJson(int id, long gid) throws IOException {
 String yammerurl;
 if (id == 0) {
-            yammerurl = "https://www.yammer.com/api/v1/messages/in_group/"+gid+".json?email=skoppisetty@deloitte.com&access_token=Ab4k0f9yK77bGqjdmsDA";
+            yammerurl = "https://www.yammer.com/api/v1/messages/in_group/"+gid+".json?email=skoppisetty@youremail.com&access_token=Ab4k0f9yK77bhgfghgfh";
         } 
-else yammerurl = "https://www.yammer.com/api/v1/messages/in_group/"+gid+".json?email=skoppisetty@deloitte.com&access_token=Ab4k0f9yK77bGqjdmsDA&older_than=" + id ;               
+else yammerurl = "https://www.yammer.com/api/v1/messages/in_group/"+gid+".json?email=skoppisetty@youremail.com&access_token=Ab4k0f9yK77bhgfghgfh&older_than=" + id ;               
   URL oracle = new URL(yammerurl);
                         URLConnection yc = oracle.openConnection();
                                
